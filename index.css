@@ -99,14 +99,14 @@ hr {
 	width: 40px;
 	max-width: 40px;
   height: 23px;
-  background-image: url('Images/key.svg');
+  background-image: url('images/key.svg');
   background-repeat: no-repeat;
 }
 .keyhole{
 	width: 10px;
   height: 23px;
   margin-left: 3px;
-  Fbackground-image: url('Images/keyhole.svg');
+  Fbackground-image: url('images/keyhole.svg');
   background-repeat: no-repeat;
 }
 a.fill-div {
@@ -120,7 +120,7 @@ a.fill-div {
 .logo{
 	width: 300px;
   height: 60px;
-  background-image: url('Images/logo.svg');
+  background-image: url('images/logo.svg');
   background-repeat: no-repeat;
 }
 .navigation-container {
