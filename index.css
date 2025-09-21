@@ -91,6 +91,7 @@ hr {
 #blog {
 	box-sizing: border-box;
 	text-align: left;
+	margin-top: 40px;
 }
 #blog img {
 	width:100%;
