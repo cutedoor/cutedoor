@@ -18,13 +18,14 @@
 }
 @media(max-width: 1100px) {
   .nav {
-  	font-size: 14pt;
+  	font-size: 13pt;
   } 
   body {
   	font-size: 14pt;
   }
   #container {
   	width: 85% !important;
+  	margin-top: -30px !important;
   }
   #bodycopy {
   	font-size: 12pt !important;
@@ -39,20 +40,6 @@
   #copyright {
   	font-size: 10pt !important;
   }
-  .logo {
-	width: 330px !important;
-  height: 70px !important;
-}
-	.key {
-	width: 45px !important;
-	max-width: 45px !important;
-  height: 25px !important;
-}
-.keyhole {
-	width: 13px !important;
-  height: 27px !important;
-  margin-left: 4px !important;
-}
 }
 body {
 	font-family: GaramondRegular;
