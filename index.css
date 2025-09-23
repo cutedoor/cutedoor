@@ -119,6 +119,13 @@ hr {
   background-image: url('images/key.svg');
   background-repeat: no-repeat;
 }
+.key2 {
+  width: 30px;
+  max-width: 30px;
+  height: 18px;
+  background-image: url('images/key.svg');
+  background-repeat: no-repeat;
+}
 .keyhole {
 	width: 10px;
   height: 23px;
