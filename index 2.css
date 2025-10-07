@@ -38,15 +38,27 @@ body {
 -o-background-size: cover;
 background-size: cover;
 background-color: #000;
+touch-action: none;
+overflow: hidden;
 }
 body:before {
   content: '';
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle 10vmax at var(--pointerX) var(--pointerY), rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.95) 100%);
+  background : rgba(0, 0, 0, .95);
+  pointer-events: none;
+  z-index: 1;
+}
+body.flashlight-active::before {
+  background: radial-gradient(
+    circle 10vmax at var(--pointerX) var(--pointerY),
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.5) 80%,
+    rgba(0, 0, 0, 0.95) 100%
+  );
 }
 .content {
     width: 500px;
@@ -58,6 +70,7 @@ body:before {
     right: 0;
     margin: auto;
     text-align: center;
+    z-index: 2;
 }
 .logo {
   width: 500px;

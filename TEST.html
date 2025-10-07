@@ -37,9 +37,36 @@
 </body>
 </html>
 
-  <script>
-    window.addEventListener('mousemove', function(e) {
-      document.documentElement.style.setProperty('--pointerX', e.clientX + 'px');
-      document.documentElement.style.setProperty('--pointerY', e.clientY + 'px');
-    })
-  </script>
+<script>
+  let activated = false;
+
+  function updateFlashlight(x, y) {
+    document.documentElement.style.setProperty('--pointerX', x + 'px');
+    document.documentElement.style.setProperty('--pointerY', y + 'px');
+
+    if (!activated) {
+      document.body.classList.add('flashlight-active');
+      activated = true;
+    }
+  }
+
+  // Desktop: mouse movement
+  window.addEventListener('mousemove', function (e) {
+    updateFlashlight(e.clientX, e.clientY);
+  });
+
+  // Mobile: touch movement
+  window.addEventListener('touchstart', function (e) {
+    const touch = e.touches[0];
+    if (touch) {
+      updateFlashlight(touch.clientX, touch.clientY);
+    }
+  });
+
+  window.addEventListener('touchmove', function (e) {
+    const touch = e.touches[0];
+    if (touch) {
+      updateFlashlight(touch.clientX, touch.clientY);
+    }
+  }, { passive: true }); // passive for better performance on mobile
+</script>
