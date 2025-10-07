@@ -30,9 +30,6 @@
   max-width: 70px !important;
   height: 48px !important;
 }
-.hero-section {
-  background-color: #000;
-}
 body:before {
   background: radial-gradient(circle 10vmax at var(--pointerX) var(--pointerY), rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.7) 100%) !important;
 }
@@ -43,6 +40,7 @@ body {
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+background-color: #000;
 }
 body:before {
   content: '';
