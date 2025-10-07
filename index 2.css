@@ -33,7 +33,13 @@
   height: 48px !important;
 }
 #copy-notification {
-  margin-top: 90px !important;
+  margin-top: 80px !important;
+}
+.nav {
+  font-size: 10pt !important;
+}
+#email {
+  font-size: 10pt !important;
 }
 }
 body {
