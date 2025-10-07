@@ -107,7 +107,6 @@ body.flashlight-active::before {
     margin: auto;
     text-align: center;
     z-index: 3;
-    background-color: red;
 }
 a.fill-div {
     display: block;
