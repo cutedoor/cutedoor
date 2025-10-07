@@ -30,7 +30,7 @@
   max-width: 70px !important;
   height: 48px !important;
 }
-body:before, body:before:active {
+body:before, body:active {
   background: radial-gradient(circle 10vmax at var(--pointerX) var(--pointerY), rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.7) 100%) !important;
 }
 }
