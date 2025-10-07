@@ -18,31 +18,31 @@
 }
 @media(max-width: 1100px) {
   .nav {
-    font-size: 13pt;
+  	font-size: 13pt;
   } 
   body {
-    font-size: 14pt;
+  	font-size: 14pt;
   }
   #container {
-    width: 85% !important;
-    margin-top: -30px !important;
+  	width: 85% !important;
+  	margin-top: -30px !important;
   }
   #bodycopy {
-    font-size: 12pt !important;
-    line-height: 17pt !important;
+  	font-size: 12pt !important;
+  	line-height: 17pt !important;
   }
 }
 body {
-  font-family: GaramondRegular;
-  -webkit-text-size-adjust: none;
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  text-align: center;
-  background-color: #fff;
-  color: #333333;
+	font-family: GaramondRegular;
+	-webkit-text-size-adjust: none;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #fff;
+	color: #333333;
 }
 h1 {
   margin: 0;
@@ -57,21 +57,21 @@ h1 {
   font-family: GaramondBold;
 }
 h3 {
-  font-family: UniversCondensed;
-  font-size: 8pt;
-  color: #ff7bac;
-  margin: 0;
-  padding: 0;
-  padding-top: 10px;
-  letter-spacing: 3px;
+	font-family: UniversCondensed;
+	font-size: 8pt;
+	color: #ff7bac;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	letter-spacing: 3px;
 }
 hr {
-  border: .5px solid #e6e6e6;
-  margin-top: 35px;
-  margin-bottom: 35px;
+	border: .5px solid #e6e6e6;
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
 .bit-date {
-  font-family: GaramondBold !important;
+	font-family: GaramondBold !important;
 }
 #container {
     width: 80%;
@@ -83,38 +83,38 @@ hr {
     margin: 0 auto;
 }
 #bodycopy {
-  max-width: 600px;
-  font-size: 11pt;
-  line-height: 13pt;
-  color: #666666;
+	max-width: 600px;
+	font-size: 11pt;
+	line-height: 13pt;
+	color: #666666;
 }
 #blog {
-  box-sizing: border-box;
-  text-align: left;
-  margin-top: 45px;
+	box-sizing: border-box;
+	text-align: left;
+	margin-top: 45px;
 }
 #blog img {
-  width:100%;
-  max-width: 800px;
-  height: auto;
-  box-sizing: border-box;
-  object-fit: contain;
-  padding: 10px; 
-  border: 1px solid #e6e6e6;
+	width:100%;
+	max-width: 800px;
+	height: auto;
+	box-sizing: border-box;
+	object-fit: contain;
+	padding: 10px; 
+	border: 1px solid #e6e6e6;
 }
 #copyright {
-  font-family: UniversCondensed;
-  font-size: 8pt;
-  color: #333333;
-  width: 100%;
-  text-align: center;
-  letter-spacing: 2px;
-  margin-top: -8px;
-  margin-bottom: -20px;
+	font-family: UniversCondensed;
+	font-size: 8pt;
+	color: #333333;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: -8px;
+	margin-bottom: -20px;
 }
 .key {
-  width: 40px;
-  max-width: 40px;
+	width: 40px;
+	max-width: 40px;
   height: 23px;
   background-image: url('images/key.svg');
   background-repeat: no-repeat;
@@ -127,7 +127,7 @@ hr {
   background-repeat: no-repeat;
 }
 .keyhole {
-  width: 10px;
+	width: 10px;
   height: 23px;
   margin-left: 3px;
   background-image: url('images/keyhole.svg');
@@ -139,10 +139,10 @@ a.fill-div {
     text-decoration: none;
 }
 .break {
-  height: 12px;
+	height: 12px;
 }
 .logo {
-  width: 300px;
+	width: 300px;
   height: 60px;
   background-image: url('images/logo.svg');
   background-repeat: no-repeat;
@@ -180,9 +180,9 @@ a.fill-div {
   cursor: pointer;
 }
 a:link, a:visited {
-  color: #333333;
-  text-decoration: none;
+	color: #333333;
+	text-decoration: none;
 }
 a:hover {
-  color: #ff7bac;
+	color: #ff7bac;
 }
