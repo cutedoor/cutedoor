@@ -32,12 +32,9 @@
   max-width: 70px !important;
   height: 48px !important;
 }
-#copy-notification {
-  margin-top: 90px !important;
-}
 }
 body {
- background: url(images/background.png) no-repeat center center fixed; 
+ background: url(https://media.istockphoto.com/id/476116580/photo/sycamore-tree-in-summer-field-at-sunset-england-uk.jpg?s=1024x1024&w=is&k=20&c=EWTo2iZxyGXOZ_aF9UUJ8UgYQD5uG2rs5hFSi9jnJXk=) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -171,41 +168,24 @@ a.fill-div {
   cursor: pointer;
 }
 #email:hover {
-  text-decoration: underline #fff 1px solid;
-  text-underline-offset: 3px;
+  text-decoration: underline;
 }
 #copy-notification {
-  font-size: 9pt;
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: 125px;
   transform: translate(-50%, -50%);
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 0.8) 30%,    /* Inner opaque area */
-    rgba(0, 0, 0, 0.5) 50%,    /* Softer mid fade */
-    rgba(0, 0, 0, 0.2) 75%,    /* Even softer */
-    rgba(0, 0, 0, 0) 100%      /* Fully transparent edge */
-  );
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  background-color: rgba(51, 51, 51, 0.8);
   color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.5s ease;
   font-family: UniversCondensedBold;
   text-transform: uppercase;
   z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  line-height: 1;
-  overflow: hidden;
-  user-select: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 #copy-notification.show {
   opacity: 1;
