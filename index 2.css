@@ -18,19 +18,19 @@
 }
 @media(max-width: 1100px) {
   .content {
-    max-width: 425px;
+    max-width: 400px;
     width: 85%;
   }
   .logo {
-  width: 425px !important;
-  height: 175px !important;
+  width: 400px !important;
+  height: 174px !important;
 }
 .key {
   width: 70px !important;
   max-width: 70px !important;
   height: 48px !important;
 }
-body:before {
+body:before, body:before:active {
   background: radial-gradient(circle 10vmax at var(--pointerX) var(--pointerY), rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.7) 100%) !important;
 }
 }
