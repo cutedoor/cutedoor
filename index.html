@@ -90,17 +90,4 @@
       console.error('Failed to copy email:', err);
     });
   });
-
-    const shopLink = document.getElementById('shop-link');
-  const shopNotification = document.getElementById('shop-notification');
-
-  shopLink.addEventListener('click', (e) => {
-    e.preventDefault(); // Prevents link navigation
-    shopNotification.classList.add('show');
-
-    // Hide after 2 seconds
-    setTimeout(() => {
-      shopNotification.classList.remove('show');
-    }, 2000);
-  });
 </script>
